@@ -1,0 +1,79 @@
+﻿@model Wedding.Web.ViewModels.Home.InvitationViewModel
+@using Wedding.Common
+@using Wedding.Data.Models
+@{
+    this.ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+
+
+        body {
+            width: auto;
+            background-image: url('https://bit.ly/2Pu6ECi');
+            background-size: 100% 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
+        @@media only screen and (max-width: 600px) {
+            body {
+                width: 100%;
+            }
+        }
+        /*.content {
+            width: 50%;
+        }*/
+
+        #gif {
+            width: 100%;
+            max-width: 500px;
+            height: auto;   
+            margin-top:15%;
+            margin-right:20%;
+        }
+
+        #questionnaire {
+            position: absolute;
+            bottom: 15%;
+            left: 97px;
+        }
+
+        #program {
+            position:absolute;
+            bottom:39px;
+            left:97px;
+        }
+
+        input {
+            max-width: none;
+        }
+    </style>
+</head>
+<div>
+
+</div>
+
+<body>
+        <div class="text-center">
+            <img src="@Model.InvitationUrl" class="rounded mx-auto d-block" width="700" height="650" id="gif">
+        </div>
+        <input type="image" src="~/images/qeistonnaire.png" name="saveform" class="bttxt submit img-fluid" id="questionnaire" width="200" height="15" onclick="RedirectToQuestionnaire()" />
+        <input type="image" src="~/images/programm.png" name="saveform" class="bttxt submit img-fluid" id="program" width="200" height="15" onclick="RedirectToProgram()" />
+    
+</body>
+@section scripts{
+    <script>
+        function RedirectToQuestionnaire() {
+            window.location.href = '/Questionnaire/Post/@Model.Id';
+        }
+    </script>
+    <script>
+
+        function RedirectToProgram() {
+            window.location.href = '/Program/Index/@Model.Id';
+        }
+    </script>
+}

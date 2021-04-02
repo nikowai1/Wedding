@@ -1,0 +1,9 @@
+C:\Users\nikow\Desktop\Wedding\Web\Wedding.Web.Infrastructure\bin\Debug\netstandard2.1\Wedding.Web.Infrastructure.deps.json
+C:\Users\nikow\Desktop\Wedding\Web\Wedding.Web.Infrastructure\bin\Debug\netstandard2.1\Wedding.Web.Infrastructure.dll
+C:\Users\nikow\Desktop\Wedding\Web\Wedding.Web.Infrastructure\bin\Debug\netstandard2.1\Wedding.Web.Infrastructure.pdb
+C:\Users\nikow\Desktop\Wedding\Web\Wedding.Web.Infrastructure\obj\Debug\netstandard2.1\Wedding.Web.Infrastructure.csprojAssemblyReference.cache
+C:\Users\nikow\Desktop\Wedding\Web\Wedding.Web.Infrastructure\obj\Debug\netstandard2.1\Wedding.Web.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\nikow\Desktop\Wedding\Web\Wedding.Web.Infrastructure\obj\Debug\netstandard2.1\Wedding.Web.Infrastructure.AssemblyInfo.cs
+C:\Users\nikow\Desktop\Wedding\Web\Wedding.Web.Infrastructure\obj\Debug\netstandard2.1\Wedding.Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\nikow\Desktop\Wedding\Web\Wedding.Web.Infrastructure\obj\Debug\netstandard2.1\Wedding.Web.Infrastructure.dll
+C:\Users\nikow\Desktop\Wedding\Web\Wedding.Web.Infrastructure\obj\Debug\netstandard2.1\Wedding.Web.Infrastructure.pdb

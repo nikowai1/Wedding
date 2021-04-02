@@ -1,0 +1,9 @@
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services\bin\Release\netstandard2.1\Wedding.Services.deps.json
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services\bin\Release\netstandard2.1\Wedding.Services.dll
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services\bin\Release\netstandard2.1\Wedding.Services.pdb
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services\obj\Release\netstandard2.1\Wedding.Services.csprojAssemblyReference.cache
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services\obj\Release\netstandard2.1\Wedding.Services.AssemblyInfoInputs.cache
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services\obj\Release\netstandard2.1\Wedding.Services.AssemblyInfo.cs
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services\obj\Release\netstandard2.1\Wedding.Services.csproj.CoreCompileInputs.cache
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services\obj\Release\netstandard2.1\Wedding.Services.dll
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services\obj\Release\netstandard2.1\Wedding.Services.pdb

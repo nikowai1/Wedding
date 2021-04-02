@@ -1,0 +1,9 @@
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services.Mapping\bin\Release\netstandard2.1\Wedding.Services.Mapping.deps.json
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services.Mapping\bin\Release\netstandard2.1\Wedding.Services.Mapping.dll
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services.Mapping\bin\Release\netstandard2.1\Wedding.Services.Mapping.pdb
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services.Mapping\obj\Release\netstandard2.1\Wedding.Services.Mapping.csprojAssemblyReference.cache
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services.Mapping\obj\Release\netstandard2.1\Wedding.Services.Mapping.AssemblyInfoInputs.cache
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services.Mapping\obj\Release\netstandard2.1\Wedding.Services.Mapping.AssemblyInfo.cs
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services.Mapping\obj\Release\netstandard2.1\Wedding.Services.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services.Mapping\obj\Release\netstandard2.1\Wedding.Services.Mapping.dll
+C:\Users\nikow\Desktop\Wedding\Services\Wedding.Services.Mapping\obj\Release\netstandard2.1\Wedding.Services.Mapping.pdb

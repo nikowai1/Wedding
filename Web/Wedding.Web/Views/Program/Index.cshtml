@@ -1,0 +1,56 @@
+﻿@model Wedding.Web.ViewModels.Home.InvitationViewModel
+
+<style type="text/css">
+    body {
+        width: auto;
+        background-image: url('https://bit.ly/2Pu6ECi');
+        background-size: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    #gif {
+        width: 100%;
+        max-width: 550px;
+        height: auto;
+        margin-top: 7%;
+    }
+
+    #questionnaire {
+        position: absolute;
+        bottom: 15%;
+        left: 97px;
+    }
+
+    #program {
+        position: absolute;
+        bottom: 39px;
+        left: 97px;
+    }
+
+    input {
+        max-width: none;
+    }
+</style>
+
+<body>
+    <div class="text-center">
+        <img src="https://cutt.ly/Ucf6UPV" class="rounded mx-auto d-block" width="750" height="750" id="gif">
+    </div>
+    <input type="image" src="~/images/qeistonnaire.png" name="saveform" class="bttxt submit img-fluid" id="questionnaire" width="200" height="15" onclick="RedirectToQuestionnaire()" />
+    <input type="image" src="~/images/nachalo.png" name="saveform" class="bttxt submit img-fluid" id="program" width="200" height="15" onclick="RedirectToProgram()" />
+
+</body>
+@section scripts{
+    <script>
+        function RedirectToQuestionnaire() {
+            window.location.href = '/Questionnaire/Question/@Model.Id';
+        }
+    </script>
+    <script>
+
+        function RedirectToProgram() {
+            window.location.href = '/Home/Index/@Model.Id';
+        }
+    </script>
+}

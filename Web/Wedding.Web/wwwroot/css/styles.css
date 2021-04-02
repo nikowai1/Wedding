@@ -1,0 +1,6 @@
+﻿#backgroundImage {
+    background-image: url('file:///C:\Users\nikow\Desktop\Wedding\Web\Wedding.Web\wwwroot\images\background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}

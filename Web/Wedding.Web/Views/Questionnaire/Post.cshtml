@@ -1,0 +1,91 @@
+﻿@model Wedding.Web.ViewModels.Questonnaire.QuestionViewModel
+@{
+    var guestsItem = this.Model.GuestNames.Select(x => new SelectListItem(x.Value, x.Key));
+    var foodsItem = this.Model.FoodNames.Select(x => new SelectListItem(x.Value, x.Key));
+    var organizedTransportItems = this.Model.OrganizedTransport.Select(x => new SelectListItem(x.Value, x.Key));
+    var childrenItems = this.Model.Children.Select(x => new SelectListItem(x.Value, x.Key));
+}
+<h1 class="card-header">Анкета за сватбата на Евелин и Василена</h1>
+
+<style type="text/css">
+    body {
+        width: auto;
+        background-image: url('https://bit.ly/2Pu6ECi');
+        background-size: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    #questionnaire {
+        position: absolute;
+        bottom: 15%;
+        left: 97px;
+    }
+
+    #program {
+        position: absolute;
+        bottom: 39px;
+        left: 97px;
+    }
+
+    input {
+        max-width: none;
+    }
+</style>
+
+<body>
+    <form method="post" asp-action="Post" class="col-md-6 offset-md-3">
+        <h1>@this.ViewData["Title"]</h1>
+        @*<div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>*@
+        <div class="form-group">
+            <label asp-for="GuestId">Въведете вашето име</label>
+            <select asp-for="GuestId" class="form-control" asp-items="guestsItem"></select>
+            <span asp-validation-for="GuestId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="FoodId">1. Моля, изберете меню:</label>
+            <select asp-for="FoodId" class="form-control" asp-items="foodsItem"></select>
+            <span asp-validation-for="FoodId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="AlergicFoods">2. Имате ли алергия към храна, ако да, моля посочете, ако не, оставете полето празно</label>
+            <input asp-for="AlergicFoods" class="form-control" />
+            <span asp-validation-for="AlergicFoods" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="OrganizedTransportId">3. Бихте ли се възползвали от организиран транспорт (автобус), който ще тръгне от църквата и ще има два курса за връщане в определен час? </label>
+            <select asp-for="OrganizedTransportId" class="form-control" asp-items="organizedTransportItems"></select>
+            <span asp-validation-for="OrganizedTransportId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ChildrenId">4. Брой деца над 2 години:</label>
+            <select asp-for="ChildrenId" class="form-control" asp-items="childrenItems"></select>
+            <span asp-validation-for="ChildrenId" class="text-danger"></span>
+        </div>
+        <hr />
+        <input type="submit" class="btn btn-primary" />
+    </form>
+
+    <input type="image" src="~/images/programm.png" name="saveform" class="bttxt submit img-fluid" id="questionnaire" width="200" height="15" onclick="RedirectToQuestionnaire()" />
+    <input type="image" src="~/images/nachalo.png" name="saveform" class="bttxt submit img-fluid" id="program" width="200" height="15" onclick="RedirectToProgram()" />
+</body>
+
+
+@section scripts{
+    <script>
+        function RedirectToQuestionnaire() {
+            window.location.href = '/Program/Index/@Model.Id';
+        }
+    </script>
+    <script>
+
+        function RedirectToProgram() {
+            window.location.href = '/Home/Index/@Model.Id';
+        }
+    </script>
+}
